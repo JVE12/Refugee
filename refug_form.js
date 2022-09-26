@@ -20,7 +20,7 @@ pets = document.getElementById("pets").value;
 name333 = document.getElementById("name").value;
 nationality = document.getElementById("nationality").value;
 email = document.getElementById("email").value;
-thing ="<div> Name:" + name + ", Family Size:" + fam_size + ", Gender:" + gender + ", Pets:" + pets + ", Nationality:" + nationality + "
+thing ="<div> Name:" + name + ", Family Size:" + fam_size + ", Gender:" + gender + ", Pets:" + pets + ", Nationality:" + nationality
 
   
   firebase.database().ref("user/" + name).set({
