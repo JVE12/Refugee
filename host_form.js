@@ -20,7 +20,7 @@ pets = document.getElementById("pets").value;
 nationality = document.getElementById("nationality").value;
 email = document.getElementById("email").value;
 i = Math.random() * (10000000000000000000000000000000000000000000000000000000 - 0) + 0
-thing ="<div> Name:" + name + ", Family Size:" + fam_size + ", Gender:" + gender + ", Pets:" + pets + ", Nationality:" + nationality + "
+thing ="<div> Name:" + name + ", Family Size:" + fam_size + ", Gender:" + gender + ", Pets:" + pets + ", Nationality:" + nationality
   firebase.database().ref("user/" + name).set({
     Family_size : fam_size,
     City : c_y,
