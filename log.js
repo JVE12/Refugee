@@ -38,6 +38,7 @@ function login()
    // }
   //  getData();
   window.localStorage.removeItem("firebase:host:refugee-cbca8-default-rtdb.firebaseio.com");
+  window.localStorage.removeItem("firebase:host:refugee-cbca8-default-rtdb.firebaseio.com");
   window.localStorage.removeItem("length");
   localStorage.setItem("<br>", "<br>");
   local = localStorage;
